@@ -1,8 +1,16 @@
+.content{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 900px;
+}
 .master{
   display: flex;
   width: 100%;
   height: 100%;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .containera{
   display: inline-flex;
@@ -39,4 +47,20 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+}
+.columna{
+  width: 50%;
+  display: flex;
+  height: 900px;
+}
+.columnb{
+  width: 30%;
+  display: flex;
+  height: 900px;
+  flex: 1 1 300;
+}
+.columnc{
+  width: 20%;
+  display: flex;
+  height: 900px;
 }
