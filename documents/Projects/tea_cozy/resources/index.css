@@ -129,4 +129,36 @@
 }
 h2{
   font-size: 30px;
+  font-weight: bold;
+}
+.footer{
+  display: flex;
+  height: 500px;
+  width: 89%;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.foothead{
+  width: 100%;
+  height: auto;
+}
+.locale{
+  background-color: black;
+  width: 300px;
+  height: auto;
+}
+.contacts{
+  width: 100%;
+  background-color: black;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  height: 200px;
+}
+.copyright{
+  margin-left: 20px;
+  margin-bottom: 30px;
 }
